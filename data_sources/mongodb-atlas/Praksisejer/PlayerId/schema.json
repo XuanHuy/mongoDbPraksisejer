@@ -1,0 +1,23 @@
+{
+    "title": "PlayerId",
+    "required": [
+        "_partition"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "playerId": {
+            "bsonType": "int"
+        },
+        "tutor": {
+            "bsonType": "int"
+        },
+        "connectPlayerId": {
+            "bsonType": "int"
+        }
+    }
+}

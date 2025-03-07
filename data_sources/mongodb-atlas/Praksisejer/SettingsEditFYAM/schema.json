@@ -1,0 +1,47 @@
+{
+    "title": "SettingsEditFYAM",
+    "required": [
+        "_partition"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "borderColor": {
+            "bsonType": "string"
+        },
+        "borderWidth": {
+            "bsonType": "double"
+        },
+        "caseListingTitle": {
+            "bsonType": "string"
+        },
+        "colorButton": {
+            "bsonType": "string"
+        },
+        "colorUnderlay": {
+            "bsonType": "string"
+        },
+        "enableStartMenuButton": {
+            "bsonType": "bool"
+        },
+        "fontWeight": {
+            "bsonType": "string"
+        },
+        "logos": {
+            "bsonType": "bool"
+        },
+        "padding": {
+            "bsonType": "double"
+        },
+        "startMenuButtonName": {
+            "bsonType": "string"
+        },
+        "textColor": {
+            "bsonType": "string"
+        }
+    }
+}

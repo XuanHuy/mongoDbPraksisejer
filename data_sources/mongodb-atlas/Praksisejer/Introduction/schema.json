@@ -1,0 +1,23 @@
+{
+    "title": "Introduction",
+    "required": [
+        "_partition"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "introPage": {
+            "bsonType": "bool"
+        },
+        "topOfCaseOverview": {
+            "bsonType": "bool"
+        },
+        "videoId": {
+            "bsonType": "string"
+        }
+    }
+}

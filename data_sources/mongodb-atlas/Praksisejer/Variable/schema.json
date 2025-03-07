@@ -1,0 +1,23 @@
+{
+    "title": "Variable",
+    "required": [
+        "_partition"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "name": {
+            "bsonType": "string"
+        },
+        "int": {
+            "bsonType": "int"
+        },
+        "string": {
+            "bsonType": "string"
+        }
+    }
+}

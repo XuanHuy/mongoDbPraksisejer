@@ -1,0 +1,35 @@
+{
+    "title": "Message",
+    "required": [
+        "_partition"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "playerId": {
+            "bsonType": "int"
+        },
+        "created": {
+            "bsonType": "date"
+        },
+        "messageType": {
+            "bsonType": "int"
+        },
+        "param1": {
+            "bsonType": "int"
+        },
+        "param2": {
+            "bsonType": "int"
+        },
+        "param3": {
+            "bsonType": "int"
+        },
+        "paramString": {
+            "bsonType": "string"
+        }
+    }
+}

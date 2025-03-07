@@ -1,0 +1,43 @@
+{
+    "title": "CaseFYAM",
+    "required": [
+        "_partition"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "weight": {
+            "bsonType": "int"
+        },
+        "question": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "_id": {
+                        "bsonType": "objectId"
+                    },
+                    "text": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "setup": {
+            "bsonType": "string"
+        },
+        "title": {
+            "bsonType": "string"
+        },
+        "supertitle": {
+            "bsonType": "string"
+        },
+        "videoId": {
+            "bsonType": "string"
+        }
+    }
+}

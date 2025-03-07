@@ -1,0 +1,63 @@
+{
+    "title": "Case",
+    "required": [
+        "_partition"
+    ],
+    "properties": {
+        "_id": {
+            "bsonType": "objectId"
+        },
+        "_partition": {
+            "bsonType": "string"
+        },
+        "version": {
+            "bsonType": "int"
+        },
+        "weight": {
+            "bsonType": "int"
+        },
+        "question": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "_id": {
+                        "bsonType": "objectId"
+                    },
+                    "text": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        },
+        "setup": {
+            "bsonType": "string"
+        },
+        "title": {
+            "bsonType": "string"
+        },
+        "videoId": {
+            "bsonType": "string"
+        },
+        "videoId_guide": {
+            "bsonType": "string"
+        },
+        "links_guide": {
+            "bsonType": "array",
+            "items": {
+                "bsonType": "object",
+                "properties": {
+                    "_id": {
+                        "bsonType": "objectId"
+                    },
+                    "text": {
+                        "bsonType": "string"
+                    },
+                    "link": {
+                        "bsonType": "string"
+                    }
+                }
+            }
+        }
+    }
+}
